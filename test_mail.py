@@ -4,15 +4,15 @@ from email.mime.text import MIMEText
 import pymysql 
 # 第三方 SMTP 服务
 mail_host = "smtp.163.com"  # SMTP服务器
-mail_user = "srat1999"  # 用户名
-mail_pass = "liuchao1999"  # 密码
+mail_user = "xxxxxxxx"  # 用户名
+mail_pass = "xxxxxxxx"  # 密码
 
 
 def connect_db():
     return pymysql.connect(host='localhost',
                            port=3306,
                            user='root',
-                           password='Flzx3000c$',
+                           password='xxxxxxxx',
                            database='secWiki',
                            charset="utf8")
 
@@ -34,7 +34,7 @@ def get_timehot(tb_name):
     return contens 
 
 
-sender = 'srat1999@163.com'  # 发件人邮箱
+sender = 'xxxxxxxx'  # 发件人邮箱
 receivers = ['2404629130@qq.com','xingg051@163.com','ahu2mama@163.com']  # 接收人邮箱
 
  
